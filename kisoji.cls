@@ -5,7 +5,7 @@
 \RequirePackage{lastpage,newunicodechar,etoolbox,geometry,amssymb,enumerate,amsmath,comment}
 
 \begin{comment}
-    
+
 ############オンデマンド実験用テンプレート（ここから）############
 \documentclass[ondemand,replace_punctuation]{kisoji}
 
@@ -25,16 +25,20 @@
 ############オンデマンド実験用テンプレート（ここまで）############
 
 ############対面実験用テンプレート（ここから）############
-\documentclass[ondemand,replace_punctuation]{kisoji}
+\documentclass[taimen,replace_punctuation]{kisoji}
 
 \kamoku{理工学基礎実験２Ａ　情報理工・情報通信}
 \koumoku{}
-\keisiki{略式実験計画書}
+\keisiki{}
 \group{}
 \han{}
 \gakuseki{}
 \author{}
+\kyoudou{}
 \date{2021年月日}
+\situon{}
+\situdo{}
+\tenkou{}
 
 \begin{document}
 \maketitle
