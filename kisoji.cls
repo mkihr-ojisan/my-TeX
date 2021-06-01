@@ -142,10 +142,15 @@
 \pagestyle{plain}
 % ポイントシステム
 \RenewBlockHeading{section}{1}{
-    label_format={\thesection .}
+    label_format={\thesection .},
+    before_lines=1
 }
-\RenewBlockHeading{subsection}{2}{}
-\RenewBlockHeading{subsubsection}{3}{}
+\RenewBlockHeading{subsection}{2}{
+    before_lines=1
+}
+\RenewBlockHeading{subsubsection}{3}{
+    before_lines=1
+}
 % 式番号
 \renewcommand{\theequation}{\thesection.\arabic{equation}}
 \@addtoreset{equation}{section}
