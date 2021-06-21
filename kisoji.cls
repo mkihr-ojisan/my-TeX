@@ -210,7 +210,7 @@
                 \begin{center}
                     理工学基礎実験報告書（対面実験用）
                 \end{center}
-                \vspace{11pt}
+                \vspace\baselineskip
                 \begin{enumerate}[label={$\blacksquare$},labelsep=1zw]
                     \item 実験科目名：\kisoji@kamoku
                     \item 実験項目名：\kisoji@koumoku
@@ -244,7 +244,7 @@
                 \begin{center}
                     理工学基礎実験報告書（オンデマンド実験用）
                 \end{center}
-                \vspace{11pt}
+                \vspace\baselineskip
                 \begin{enumerate}[label={$\blacksquare$},labelsep=1zw]
                     \item 実験科目名：\kisoji@kamoku
                     \item 実験項目名：\kisoji@koumoku
