@@ -2,7 +2,7 @@
 \ProvidesClass{kisoji}[2021/05/24 kisoji]
 
 \LoadClass[jafontsize=11pt,linegap=7pt,jafontscale=0.9]{jlreq}
-\RequirePackage{lastpage,newunicodechar,etoolbox,geometry,amssymb,enumerate,amsmath,comment}
+\RequirePackage{lastpage,newunicodechar,etoolbox,geometry,amssymb,enumitem,amsmath,comment}
 
 \begin{comment}
 
@@ -151,6 +151,11 @@
 \RenewBlockHeading{subsubsection}{3}{
     before_lines=1
 }
+\SetBlockHeadingSpaces{
+    {_section{lines=1,before_lines=1},_subsection{lines=1},_subsubsection{lines=1}}
+    {_section{lines=1,before_lines=1},_subsection{lines=1}}
+    {_subsection{lines=1,before_lines=1},_subsubsection{lines=1}}
+}
 % 式番号
 \renewcommand{\theequation}{\thesection.\arabic{equation}}
 \@addtoreset{equation}{section}
@@ -164,7 +169,7 @@
     caption_label_font=\normalsize,
 }
 % 箇条書き
-\renewcommand{\labelenumi}{(\theenumi) }
+\setlist[enumerate,1]{label={(\arabic*) },topsep=0mm,labelsep=0.5em}
 
 % 表紙に書く項目を定義するコマンド
 \newcommand{\kamoku}[1]{\newcommand{\kisoji@kamoku}{#1}}
@@ -263,7 +268,7 @@
 
 % 文献
 \newenvironment{bunken}[1]{
-    \begin{enumerate}[1) ]
+    \begin{enumerate}[label={\arabic*) }]
         \item 早稲田大学，基幹理工学部・創造理工学部，理工学基礎実験室編，理工学基礎実験２Ａ，#1，2021．
 }{
     \end{enumerate}
