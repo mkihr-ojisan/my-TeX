@@ -211,22 +211,20 @@
                     理工学基礎実験報告書（対面実験用）
                 \end{center}
                 \vspace{11pt}
-                \allowitemize
-                \begin{itemize}
-                    \item[$\blacksquare$\hspace{11pt}] 実験科目名：\kisoji@kamoku
-                    \item[$\blacksquare$\hspace{11pt}] 実験項目名：\kisoji@koumoku
-                    \item[$\blacksquare$\hspace{11pt}] 報告形式：\kisoji@keisiki
-                    \item[$\blacksquare$\hspace{11pt}] グループ番号：\kisoji@group
-                    \item[$\blacksquare$\hspace{11pt}] 班番号：\kisoji@han
-                    \item[$\blacksquare$\hspace{11pt}] 学籍番号：\kisoji@gakuseki
-                    \item[$\blacksquare$\hspace{11pt}] 氏名：\kisoji@author
-                    \item[$\blacksquare$\hspace{11pt}] 共同実験者氏名：\kisoji@kyoudou
-                    \item[$\blacksquare$\hspace{11pt}] 実験日：\kisoji@date
-                    \item[$\blacksquare$\hspace{11pt}] 室温：\kisoji@situon
-                    \item[$\blacksquare$\hspace{11pt}] 湿度：\kisoji@situdo
-                    \item[$\blacksquare$\hspace{11pt}] 天候：\kisoji@tenkou
-                \end{itemize}
-                \disallowitemize
+                \begin{enumerate}[label={$\blacksquare$},labelsep=1zw]
+                    \item 実験科目名：\kisoji@kamoku
+                    \item 実験項目名：\kisoji@koumoku
+                    \item 報告形式：\kisoji@keisiki
+                    \item グループ番号：\kisoji@group
+                    \item 班番号：\kisoji@han
+                    \item 学籍番号：\kisoji@gakuseki
+                    \item 氏名：\kisoji@author
+                    \item 共同実験者氏名：\kisoji@kyoudou
+                    \item 実験日：\kisoji@date
+                    \item 室温：\kisoji@situon
+                    \item 湿度：\kisoji@situdo
+                    \item 天候：\kisoji@tenkou
+                \end{enumerate}
                 \newpage
                 \setcounter{page}{1}
             }{}
@@ -247,18 +245,16 @@
                     理工学基礎実験報告書（オンデマンド実験用）
                 \end{center}
                 \vspace{11pt}
-                \allowitemize
-                \begin{itemize}
-                    \item[$\blacksquare$\hspace{11pt}] 実験科目名：\kisoji@kamoku
-                    \item[$\blacksquare$\hspace{11pt}] 実験項目名：\kisoji@koumoku
-                    \item[$\blacksquare$\hspace{11pt}] 報告形式：\kisoji@keisiki
-                    \item[$\blacksquare$\hspace{11pt}] グループ番号：\kisoji@group
-                    \item[$\blacksquare$\hspace{11pt}] 班番号：\kisoji@han
-                    \item[$\blacksquare$\hspace{11pt}] 学籍番号：\kisoji@gakuseki
-                    \item[$\blacksquare$\hspace{11pt}] 氏名：\kisoji@author
-                    \item[$\blacksquare$\hspace{11pt}] 実験日：\kisoji@date
-                \end{itemize}
-                \disallowitemize
+                \begin{enumerate}[label={$\blacksquare$},labelsep=1zw]
+                    \item 実験科目名：\kisoji@kamoku
+                    \item 実験項目名：\kisoji@koumoku
+                    \item 報告形式：\kisoji@keisiki
+                    \item グループ番号：\kisoji@group
+                    \item 班番号：\kisoji@han
+                    \item 学籍番号：\kisoji@gakuseki
+                    \item 氏名：\kisoji@author
+                    \item 実験日：\kisoji@date
+                \end{enumerate}
                 \newpage
                 \setcounter{page}{1}
             }{}
